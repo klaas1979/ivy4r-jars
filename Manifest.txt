@@ -1,0 +1,14 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/ivy4r_jars
+ivy4r-jars.gemspec
+lib/ant-1.7.1.jar
+lib/ant-launcher-1.7.1.jar
+lib/ant-trax-1.7.1.jar
+lib/ivy4r_jars.rb
+lib/ivy_2.2.0.20090623115408.jar
+lib/jsch-0.1.41.jar
+lib/oro-2.0.8.jar
+test/test_ivy4r_jars.rb
