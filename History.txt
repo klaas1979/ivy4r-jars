@@ -1,3 +1,8 @@
+=== 1.0.1 / 2009-06-24
+
+* small improvements in rakefile (execute test for some targets)
+* publish to rubyforge "hamburg.rb"
+
 === 1.0.0 / 2009-06-23
 
 * Contains the major jars for ANT and Ivy

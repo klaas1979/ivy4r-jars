@@ -1,5 +1,5 @@
 class Ivy4rJars
-  VERSION = '1.0.0'
+  VERSION = '1.0.1'
 
   class << self
     # Returns expanded path to directory containing the jars

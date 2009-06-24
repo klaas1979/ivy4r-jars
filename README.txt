@@ -1,6 +1,7 @@
 = ivy4r-jars
 
 * http://github.com/klaas1979/ivy4r-jars/tree/master
+* http://hamburgrb.rubyforge.org/
 
 == DESCRIPTION:
 

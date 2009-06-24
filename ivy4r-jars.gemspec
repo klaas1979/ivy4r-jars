@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ivy4r-jars}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Klaas Prause"]
-  s.date = %q{2009-06-23}
+  s.date = %q{2009-06-24}
   s.default_executable = %q{ivy4r_jars}
   s.description = %q{Contains all java jar dependencies for ivy4r[http://github.com/klaas1979/ivy4r/tree/master] to
 separate them from the ruby support for ivy. The dependencies include the needed jars to use
@@ -37,7 +37,7 @@ separate them from the ruby support for ivy. The dependencies include the needed
   s.homepage = %q{http://github.com/klaas1979/ivy4r-jars/tree/master}
   s.rdoc_options = ["--main", "README.txt", "--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{ivy4r-jars}
+  s.rubyforge_project = %q{hamburgrb}
   s.rubygems_version = %q{1.3.3}
   s.summary = %q{Contains all java jar dependencies for ivy4r[http://github.com/klaas1979/ivy4r/tree/master] to separate them from the ruby support for ivy}
   s.test_files = [
