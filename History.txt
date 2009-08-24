@@ -1,3 +1,7 @@
+=== 1.0.2 / 2009-08-24
+
+* use new ivy version +2.1.0-rc2+
+
 === 1.0.1 / 2009-06-24
 
 * small improvements in rakefile (execute test for some targets)

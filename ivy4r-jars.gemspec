@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ivy4r-jars}
-  s.version = "1.0.1"
+  s.version = "1.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Klaas Prause"]
-  s.date = %q{2009-06-24}
+  s.date = %q{2009-08-24}
   s.default_executable = %q{ivy4r_jars}
   s.description = %q{Contains all java jar dependencies for ivy4r[http://github.com/klaas1979/ivy4r/tree/master] to
 separate them from the ruby support for ivy. The dependencies include the needed jars to use
@@ -29,7 +29,6 @@ separate them from the ruby support for ivy. The dependencies include the needed
      "lib/ant-launcher-1.7.1.jar",
      "lib/ant-trax-1.7.1.jar",
      "lib/ivy4r_jars.rb",
-     "lib/ivy_2.2.0.20090623115408.jar",
      "lib/jsch-0.1.41.jar",
      "lib/oro-2.0.8.jar",
      "test/test_ivy4r_jars.rb"
