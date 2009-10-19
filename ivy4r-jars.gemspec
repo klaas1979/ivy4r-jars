@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Klaas Prause"]
-  s.date = %q{2009-08-24}
+  s.date = %q{2009-10-19}
   s.default_executable = %q{ivy4r_jars}
   s.description = %q{Contains all java jar dependencies for ivy4r[http://github.com/klaas1979/ivy4r/tree/master] to
 separate them from the ruby support for ivy. The dependencies include the needed jars to use
@@ -28,6 +28,7 @@ separate them from the ruby support for ivy. The dependencies include the needed
      "lib/ant-1.7.1.jar",
      "lib/ant-launcher-1.7.1.jar",
      "lib/ant-trax-1.7.1.jar",
+     "lib/ivy-2.1.0.jar",
      "lib/ivy4r_jars.rb",
      "lib/jsch-0.1.41.jar",
      "lib/oro-2.0.8.jar",
@@ -37,7 +38,7 @@ separate them from the ruby support for ivy. The dependencies include the needed
   s.rdoc_options = ["--main", "README.txt", "--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{hamburgrb}
-  s.rubygems_version = %q{1.3.3}
+  s.rubygems_version = %q{1.3.5}
   s.summary = %q{Contains all java jar dependencies for ivy4r[http://github.com/klaas1979/ivy4r/tree/master] to separate them from the ruby support for ivy}
   s.test_files = [
     "test/test_ivy4r_jars.rb"
@@ -48,11 +49,11 @@ separate them from the ruby support for ivy. The dependencies include the needed
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<hoe>, [">= 2.2.0"])
+      s.add_development_dependency(%q<hoe>, [">= 2.3.3"])
     else
-      s.add_dependency(%q<hoe>, [">= 2.2.0"])
+      s.add_dependency(%q<hoe>, [">= 2.3.3"])
     end
   else
-    s.add_dependency(%q<hoe>, [">= 2.2.0"])
+    s.add_dependency(%q<hoe>, [">= 2.3.3"])
   end
 end

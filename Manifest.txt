@@ -8,7 +8,7 @@ lib/ant-1.7.1.jar
 lib/ant-launcher-1.7.1.jar
 lib/ant-trax-1.7.1.jar
 lib/ivy4r_jars.rb
-lib/ivy-2.1.0-rc2.jar
+lib/ivy-2.1.0.jar
 lib/jsch-0.1.41.jar
 lib/oro-2.0.8.jar
 test/test_ivy4r_jars.rb
