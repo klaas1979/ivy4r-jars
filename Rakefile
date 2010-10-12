@@ -6,8 +6,7 @@ require 'hoe'
 require 'ivy4r_jars'
   
 hoe = Hoe.spec 'ivy4r-jars' do |p|
-  self.rubyforge_name = 'hamburgrb'
-  p.developer('Klaas Prause', 'klaas.prause@googlemail.com')
+  p.developer('Klaas Reineke', 'klaas.reineke@googlemail.com')
   p.remote_rdoc_dir = 'ivy4r-jars'
   File.open(File.join(File.dirname(__FILE__), 'VERSION'), 'w') do |file|
     file.puts Ivy4rJars::VERSION
