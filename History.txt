@@ -1,3 +1,8 @@
+=== 1.2.0 / 2010-10-12
+
+* use new ivy version +2.2.0+
+* Added missing additional ivy dependency that are contained in ivy distribution 2.2.0
+
 === 1.1.0 / 2009-10-19
 
 * use new ivy version +2.1.0+

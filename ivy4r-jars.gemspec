@@ -2,16 +2,16 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ivy4r-jars}
-  s.version = "1.0.2"
+  s.version = "1.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Klaas Prause"]
+  s.authors = ["Klaas Reineke"]
   s.date = %q{2009-10-19}
   s.default_executable = %q{ivy4r_jars}
   s.description = %q{Contains all java jar dependencies for ivy4r[http://github.com/klaas1979/ivy4r/tree/master] to
 separate them from the ruby support for ivy. The dependencies include the needed jars to use
 {Apache Ivy}[http://ant.apache.org/ivy/index.html] including Ant.}
-  s.email = ["klaas.prause@googlemail.com"]
+  s.email = ["klaas.reineke@googlemail.com"]
   s.executables = ["ivy4r_jars"]
   s.extra_rdoc_files = [
     "History.txt",
